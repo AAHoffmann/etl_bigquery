@@ -1,0 +1,27 @@
+2026-03-26 22:17:25,422 - INFO - Iniciando Transferencia para o BigQuery!
+2026-03-26 22:17:25,550 - INFO - Transferindo -> CSV: olist_customers_dataset.csv para tabela: customers no BigQuery
+2026-03-26 22:17:37,349 - INFO - 99441 out of 99441 rows loaded.
+2026-03-26 22:17:37,350 - INFO - Concluida transferencia -> CSV: olist_customers_dataset.csv para tabela: customers
+2026-03-26 22:17:37,717 - INFO - Transferindo -> CSV: olist_geolocation_dataset.csv para tabela: geolocation no BigQuery
+2026-03-26 22:17:46,299 - INFO - 738332 out of 738332 rows loaded.
+2026-03-26 22:17:46,300 - INFO - Concluida transferencia -> CSV: olist_geolocation_dataset.csv para tabela: geolocation
+2026-03-26 22:17:46,570 - INFO - Transferindo -> CSV: olist_orders_dataset.csv para tabela: orders no BigQuery
+2026-03-26 22:17:54,439 - INFO - 99441 out of 99441 rows loaded.
+2026-03-26 22:17:54,439 - INFO - Concluida transferencia -> CSV: olist_orders_dataset.csv para tabela: orders
+2026-03-26 22:17:54,617 - INFO - Transferindo -> CSV: olist_order_items_dataset.csv para tabela: order_items no BigQuery
+2026-03-26 22:18:04,331 - INFO - 112650 out of 112650 rows loaded.
+2026-03-26 22:18:04,331 - INFO - Concluida transferencia -> CSV: olist_order_items_dataset.csv para tabela: order_items
+2026-03-26 22:18:04,410 - INFO - Transferindo -> CSV: olist_order_payments_dataset.csv para tabela: order_payments no BigQuery
+2026-03-26 22:18:11,144 - INFO - 103886 out of 103886 rows loaded.
+2026-03-26 22:18:11,144 - INFO - Concluida transferencia -> CSV: olist_order_payments_dataset.csv para tabela: order_payments
+2026-03-26 22:18:11,423 - INFO - Transferindo -> CSV: olist_order_reviews_dataset.csv para tabela: order_reviews no BigQuery
+2026-03-26 22:18:19,811 - INFO - 99224 out of 99224 rows loaded.
+2026-03-26 22:18:19,811 - INFO - Concluida transferencia -> CSV: olist_order_reviews_dataset.csv para tabela: order_reviews
+2026-03-26 22:18:19,850 - INFO - Transferindo -> CSV: olist_products_dataset.csv para tabela: products no BigQuery
+2026-03-26 22:18:26,925 - INFO - 32951 out of 32951 rows loaded.
+2026-03-26 22:18:26,926 - INFO - Concluida transferencia -> CSV: olist_products_dataset.csv para tabela: products
+2026-03-26 22:18:26,931 - INFO - Transferindo -> CSV: olist_sellers_dataset.csv para tabela: sellers no BigQuery
+2026-03-26 22:18:31,870 - INFO - 3095 out of 3095 rows loaded.
+2026-03-26 22:18:31,871 - INFO - Concluida transferencia -> CSV: olist_sellers_dataset.csv para tabela: sellers
+2026-03-26 22:18:31,873 - INFO - Transferindo -> CSV: product_category_name_translation.csv para tabela: product_category_name_translation.csv no BigQuery
+2026-03-26 22:18:32,329 - ERROR - Erro de transferencia do CSV product_category_name_translation.csv para tabela product_category_name_translation.csv no BigQuery, nao foi possivel transferir

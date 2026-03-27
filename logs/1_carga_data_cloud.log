@@ -1,0 +1,21 @@
+2026-03-26 22:04:44,516 - INFO - Iniciando Transferência para o BigQuery!
+2026-03-26 22:04:44,643 - INFO - Transferindo -> CSV: olist_customers_dataset.csv para tabela: customers_dataset.csv no BigQuery
+2026-03-26 22:04:48,093 - INFO - Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=262006177488-3425ks60hkk80fssi9vpohv88g6q1iqd.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbigquery&state=06UCpBir8ATNdCFBaLro95M9vB0EtF&code_challenge=M9Ob15KSKENgRt3nWuxb0pKUUY7KuqaPzFPkWD5T1bo&code_challenge_method=S256&prompt=consent&access_type=offline
+2026-03-26 22:04:56,698 - INFO - "GET /?state=06UCpBir8ATNdCFBaLro95M9vB0EtF&iss=https://accounts.google.com&code=4/0Aci98E_FbGmUxz9POwvz4wKrPhbpOG8Bv0EG-APdeboeiV4QCnBcz9MnaXWLeyQ20gqiNg&scope=https://www.googleapis.com/auth/bigquery HTTP/1.1" 200 65
+2026-03-26 22:04:57,942 - ERROR - Erro de transferência do CSV olist_customers_dataset.csv para tabela customers_dataset.csv no BigQuery, não foi possível transferir
+2026-03-26 22:04:58,311 - INFO - Transferindo -> CSV: olist_geolocation_dataset.csv para tabela: geolocation_dataset.csv no BigQuery
+2026-03-26 22:04:58,831 - ERROR - Erro de transferência do CSV olist_geolocation_dataset.csv para tabela geolocation_dataset.csv no BigQuery, não foi possível transferir
+2026-03-26 22:04:59,098 - INFO - Transferindo -> CSV: olist_orders_dataset.csv para tabela: orders_dataset.csv no BigQuery
+2026-03-26 22:04:59,662 - ERROR - Erro de transferência do CSV olist_orders_dataset.csv para tabela orders_dataset.csv no BigQuery, não foi possível transferir
+2026-03-26 22:04:59,835 - INFO - Transferindo -> CSV: olist_order_items_dataset.csv para tabela: order_items_dataset.csv no BigQuery
+2026-03-26 22:05:00,332 - ERROR - Erro de transferência do CSV olist_order_items_dataset.csv para tabela order_items_dataset.csv no BigQuery, não foi possível transferir
+2026-03-26 22:05:00,407 - INFO - Transferindo -> CSV: olist_order_payments_dataset.csv para tabela: order_payments_dataset.csv no BigQuery
+2026-03-26 22:05:00,868 - ERROR - Erro de transferência do CSV olist_order_payments_dataset.csv para tabela order_payments_dataset.csv no BigQuery, não foi possível transferir
+2026-03-26 22:05:01,152 - INFO - Transferindo -> CSV: olist_order_reviews_dataset.csv para tabela: order_reviews_dataset.csv no BigQuery
+2026-03-26 22:05:01,673 - ERROR - Erro de transferência do CSV olist_order_reviews_dataset.csv para tabela order_reviews_dataset.csv no BigQuery, não foi possível transferir
+2026-03-26 22:05:01,711 - INFO - Transferindo -> CSV: olist_products_dataset.csv para tabela: products_dataset.csv no BigQuery
+2026-03-26 22:05:02,176 - ERROR - Erro de transferência do CSV olist_products_dataset.csv para tabela products_dataset.csv no BigQuery, não foi possível transferir
+2026-03-26 22:05:02,181 - INFO - Transferindo -> CSV: olist_sellers_dataset.csv para tabela: sellers_dataset.csv no BigQuery
+2026-03-26 22:05:02,641 - ERROR - Erro de transferência do CSV olist_sellers_dataset.csv para tabela sellers_dataset.csv no BigQuery, não foi possível transferir
+2026-03-26 22:05:02,644 - INFO - Transferindo -> CSV: product_category_name_translation.csv para tabela: product_category_name_translation.csv no BigQuery
+2026-03-26 22:05:03,093 - ERROR - Erro de transferência do CSV product_category_name_translation.csv para tabela product_category_name_translation.csv no BigQuery, não foi possível transferir
