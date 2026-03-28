@@ -1,0 +1,35 @@
+# 📊 Pipeline de Dados - Vendas
+
+## 🚀 Objetivo
+Construir um pipeline de dados completo utilizando Python, BigQuery e SQL para análise de vendas.
+
+## 🧰 Tecnologias
+- Python (Pandas)
+- Google BigQuery
+- SQL
+- Git/GitHub
+
+## 🔄 Pipeline
+1. Extração de dados CSV
+2. Transformação com Python
+3. Carga no BigQuery
+4. Modelagem de dados
+5. Análise e dashboard
+
+🚧 Em desenvolvimento — melhorias contínuas sendo aplicadas
+- Estado: Atualmente em progresso, existe melhorias para serem feitas. Já é possível processar arquivos CSV e realizar o upload para dentro do BigQuery. 
+          Está criando de forma automatizada as tabelas, assim como a leitura dos CSV´s.
+- Por hora não disponibilizarei um roteiro de como rodar pois quero realizar melhorias significativas para melhor entendimento do projeto. 
+  Entretanto é necessário conta no BigQuery e criação de uma conta de serviço no IAM, gerando uma chave de credencial e substituindo pelo caminho da minha chave.
+
+#Futuras melhorias/Desenvolvimentos(Amandio)
+#Principais
+1- A estrutura de pastas não é a definitiva, vai ser remodelada, atualmente foi criada de qualquer forma apenas para subir o projeto o quanto antes.
+2- Implementar o docker e airflow para automatizar o processo de ETL
+3- Correção dos logs, não está gerando log da forma esperada no carga_data_cloud.py
+4- Implementar o star schema no bigquery, criar consultas e preparar tudo para o dashboard no Powerbi
+
+#Secundárias
+- Trabalhar com arquivos parquet.
+- Criar notebooks, exportar para o google colab.
+
