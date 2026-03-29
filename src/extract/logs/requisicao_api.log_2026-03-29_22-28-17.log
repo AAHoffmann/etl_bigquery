@@ -1,0 +1,2 @@
+2026-03-29 22:28:17,721 - requisicao_api.log - INFO - Iniciando requisicao, URL ---> https://fakestoreapi.com/products
+2026-03-29 22:28:17,991 - requisicao_api.log - INFO - Requisicao efetuada com sucesso! URL ---> https://fakestoreapi.com/products
